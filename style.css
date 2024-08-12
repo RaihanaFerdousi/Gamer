@@ -147,6 +147,15 @@
         flex-direction: column-reverse;
     }
 
+    .banner-subtitle{
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    .banner-title{
+        font-size: 70px;
+    }
+
     .banner-img{
         margin-bottom: 80px;
     }
