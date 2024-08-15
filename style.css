@@ -258,6 +258,77 @@
   position: absolute;
 }
 
+/* career section */
+
+.career{
+  display: flex;
+  align-items: center;
+  background-color: #F948B2;
+  padding: 0 130px;
+  margin-bottom: 100px;
+}
+
+.career-title{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.career-description{
+  color: white;
+  line-height: 1.5;
+  font-weight: 530;
+}
+
+.careers{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 30px 0;
+  color: white;
+}
+
+.div-right{
+  text-align: right;
+}
+
+.careers p{
+  margin-bottom: 10px;
+  white-space: nowrap;
+  font-weight: 600;
+
+}
+
+.career-btn{
+  color: #F948B2;
+  padding: 14px 40px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+}
+.career-img{
+  width: 700px;
+}
+
+/* types of games */
+
+.type-game{
+  margin-bottom: 80px;
+}
+
+.action-game{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.group-5, .group-4{
+  margin-bottom: 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
 
 
 
@@ -364,5 +435,13 @@
     .instant-game-content2{
       text-align: center;
     }
-}
+
+    .career{
+      flex-direction: column;
+      padding: 50px 20px;
+    }
+    .careers{
+      flex-direction: column;
+    }
+  }
 
